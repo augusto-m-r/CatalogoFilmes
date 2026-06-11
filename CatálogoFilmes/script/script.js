@@ -26,7 +26,7 @@ const filmes = [{
 {
     titulo: "Nascido Para Matar",
     imagem: "https://media.themoviedb.org/t/p/w533_and_h300_face/3k2TRmqMjgt7tcwkYwZQdctnty3.jpg",
-    descricao: "No Vietnã, o vento não sopra. Ele mata."
+    descricao: "No Vietnã, o vento não sopra. Ele mata.",
 }]
 
 const lista_filmes = document.getElementById("listaFilmes");
