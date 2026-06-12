@@ -14,19 +14,19 @@ const series = [{
     descricao: "Para salvar o universo, ele realmente precisará ser… INVENCÍVEL.",
 },
 {
-    titulo: "A Queda! As Últimas Horas de Hitler",
-    imagem: "https://media.themoviedb.org/t/p/w533_and_h300_face/cmyrTgVrfsQNlQG4o6m7E5HoP0L.jpg",
-    descricao: "Abril de 1945, uma nação aguarda... A Queda!"
+    titulo: "Chapolin Colorado",
+    imagem: "https://www.themoviedb.org/t/p/w600_and_h900_face/nuOrzFX2UrfCFWDKE6sBdugoKeP.jpg",
+    descricao: "Sigam-me os bons!"
 },
 {
-    titulo: "Top Gun - Asas Indomáveis",
-    imagem: "https://media.themoviedb.org/t/p/w533_and_h300_face/dBgxEkWe17R0AJDAvAhpeVELQx2.jpg",
-    descricao: "Voe com o melhor dos melhores.",
+    titulo: "Mestres do Ar",
+    imagem: "https://www.themoviedb.org/t/p/w600_and_h900_face/wUIUzCouKHc0PjfMdTB9q9J8Z5G.jpg",
+    descricao: "Uma equipe, uma guerra",
 },
 {
-    titulo: "Nascido Para Matar",
-    imagem: "https://media.themoviedb.org/t/p/w533_and_h300_face/3k2TRmqMjgt7tcwkYwZQdctnty3.jpg",
-    descricao: "No Vietnã, o vento não sopra. Ele mata.",
+    titulo: "Generation Kill",
+    imagem: "https://www.themoviedb.org/t/p/w600_and_h900_face/wiihoYOODwh82xVzPoiaztlg6c9.jpg",
+    descricao: "No Iraque, o vento não sopra. Ele mata.",
 }]
 
 const lista_series = document.getElementById("listaSeries");

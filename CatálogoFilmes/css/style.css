@@ -2,11 +2,14 @@ body {
     background-color: #f4f4f4;
 }
 
+.btns {
+    align-items: right;
+}
+
 .card-serie {
     transition: 0.3s;
     cursor: pointer;
 }
-
 
 .card-filme {
     transition: 0.3s;
@@ -30,6 +33,10 @@ button a {
     text-decoration: none;
     color: #fff;
 }
+.card-aviao:hover {
+    transform: scale(1.03);
+}
+
 
 .card-serie:hover {
     transform: scale(1.03);
@@ -38,6 +45,11 @@ button a {
 
 .card-filme:hover {
     transform: scale(1.03);
+}
+
+.card-aviao img {
+    height: 400px;
+    object-fit: cover;
 }
 
 .card-serie img {
