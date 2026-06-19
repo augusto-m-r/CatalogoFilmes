@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 import pymysql
+from flask import request
 
 app = Flask(__name__)
 CORS(app)
@@ -32,4 +33,17 @@ def listar_filmes():
     conexao.close()
     return filmes
 
+app.route("/filmes", methods=["POST"])
+def cadastrarFilme():
+    dados = request.json
+    conexao = conectar()
+    cursor = conexao.cursor()
+    sql = """INSERT INTO filmes (titulo, imagem, descricao) values (%s, %s, %s)"""
+
+    cursor.execute(
+        sql, (dados["titulo"], dados["imagem"], dados["descricao"])
+    )
+    conexao.commit()
+    conexao.close()
+    return {"mensagem":"filme cadastrado"}
 app.run()
